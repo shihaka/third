@@ -8,10 +8,10 @@ void	ptchar(char c)
 int	main()
 {
 	char a;
-	a = 'a';
-	while (a <= 'z')
+	a = 0;
+	while (a <= 10)
 	{
-		ptchar(a);
+		ptchar('a');
 		a++;
 	}
 	return (0);
