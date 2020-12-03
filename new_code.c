@@ -11,7 +11,7 @@ int	main()
 	a = 0;
 	while (a <= 10)
 	{
-		ptchar('a');
+		ptchar('b');
 		a++;
 	}
 	return (0);
